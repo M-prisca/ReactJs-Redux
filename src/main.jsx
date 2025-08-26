@@ -6,7 +6,7 @@ import "./index.css";
 import App from "./App.jsx";
 import Login from "./components/Login.jsx";
 import Profile from "./components/Profile.jsx";
-import { useReducer } from "./Features/user.js";
+import useReducer from "./Features/user.js";
 
 const store = configureStore({
   reducer: {
