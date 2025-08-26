@@ -5,9 +5,11 @@ import Profile from "./components/Profile.jsx";
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-center font-bold">Hello world!</h1>
-      <Profile />
-      <Login />
+      <div className="flex flex-col gap-4 bg-gray-200 items-center h-screen">
+        <h1 className="text-3xl text-center font-bold">Hello world!</h1>
+        <Profile />
+        <Login />
+      </div>
     </>
   );
 }

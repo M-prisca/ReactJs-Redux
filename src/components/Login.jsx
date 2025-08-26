@@ -7,6 +7,7 @@ const Login = () => {
   return (
     <div>
       <button
+        className="bg-blue-900 text-center text-white px-4 py-1 rounded text-2xl"
         onClick={() =>
           dispatch(
             loginUser({ name: "John", age: 30, email: "john@example.com" })
