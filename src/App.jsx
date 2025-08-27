@@ -1,6 +1,7 @@
 import React from "react";
 import Login from "./components/Login.jsx";
 import Profile from "./components/Profile.jsx";
+import ChangeColor from "./components/ChangeColor.jsx";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1 className="text-3xl text-center font-bold">Hello world!</h1>
         <Profile />
         <Login />
+        <ChangeColor />
       </div>
     </>
   );
