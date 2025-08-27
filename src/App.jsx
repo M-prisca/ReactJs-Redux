@@ -2,6 +2,7 @@ import React from "react";
 import Login from "./components/Login.jsx";
 import Profile from "./components/Profile.jsx";
 import ChangeColor from "./components/ChangeColor.jsx";
+import { UserContextProvider } from "./ContextAPI/UserContext.jsx";
 
 function App() {
   return (
@@ -12,6 +13,10 @@ function App() {
         <Login />
         <ChangeColor />
       </div>
+
+      <UserContextProvider>
+        {/* Other components that need access to UserContext can go here */}
+      </UserContextProvider>
     </>
   );
 }
